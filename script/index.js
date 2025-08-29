@@ -23,24 +23,107 @@ for (let coine of coines) {
     coine.addEventListener('click', function () {
         balance = balance - 20;  
         if(balance < 0){
-            alert("You have no balance")
+            alert("You have no balance you need 20 coin for 1 call")
             return;
 
         }
         document.getElementById('coin-btn').innerText = balance
     })
 }
-let calls = document.querySelectorAll('.coin-card')
+// let calls = document.querySelectorAll('.coin-card')
 
-for (let call of calls) {
-    call.addEventListener('click', function () {
+// for (let call of calls) {
+//     call.addEventListener('click', function () {
        
-            alert("📞 Calling Emergency Helpline ....")
+//             alert("📞 Calling Emergency Helpline ....")
+//             return;
+
+//         }
+        
+//     )}
+    document.getElementById('call-1')
+.addEventListener('click', function () {
+    
+       
+            alert("📞National Emergency Number 999...")
             return;
 
         }
         
-    )}
+    )
+    document.getElementById('call-2')
+.addEventListener('click', function () {
+       
+            alert("📞 Police Helpline Number 999..")
+            return;
+
+        }
+        
+    )
+document.getElementById('call-3')
+.addEventListener('click', function () {
+       
+            alert("📞 Fire Service  Number 999..")
+            return;
+
+        }
+        
+    )
+document.getElementById('call-4')
+.addEventListener('click', function () {
+       
+            alert("📞 Ambulance Service Number 1994-999999..")
+            return;
+
+        }
+        
+    )
+document.getElementById('call-5')
+.addEventListener('click', function () {
+       
+            alert("📞 Women & Child Helpline Number 109..")
+            return;
+
+        }
+        
+    )
+document.getElementById('call-6')
+.addEventListener('click', function () {
+       
+            alert("📞 Anti-Corruption Helpline Number 106..")
+            return;
+
+        }
+        
+    )
+document.getElementById('call-7')
+.addEventListener('click', function () {
+       
+            alert("📞 Electricity Helpline Number 16216..")
+            return;
+
+        }
+        
+    )
+document.getElementById('call-8')
+.addEventListener('click', function () {
+       
+            alert("📞Brac Helpline Number 16445..")
+            return;
+
+        }
+        
+    )
+document.getElementById('call-9')
+.addEventListener('click', function () {
+       
+            alert("📞 Bangladesh Railway Helpline Number 163..")
+            return;
+
+        }
+        
+    )
+
     // cart 1
 document.getElementById('copy-1')
 .addEventListener('click', function () {
